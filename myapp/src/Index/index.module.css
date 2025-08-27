@@ -1,0 +1,30 @@
+.Shopping_List{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 2rem;
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 50px 30px forestgreen;
+}
+
+
+    
+.heading{
+    text-align: center;
+}
+
+.content{
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    gap: 2rem;
+}
+
+.Shopping_List p{
+    font-weight: 600;
+}
+

@@ -1,0 +1,258 @@
+.home{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url('/images/back.jpg');
+    background-size: cover;
+    
+
+}
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 2rem;
+    margin-left: 22rem;
+    height: auto;
+}
+
+.listcontainer{
+    
+    gap: 1rem;
+    padding: 4rem;
+    display: flex;
+    flex-grow: 1;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+
+
+.top{
+    width: 100%;
+        background-color: rgb(20, 44, 44); 
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+}
+
+.top p{
+    margin-right: 10rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+   
+}
+
+.listcard{
+    background-color: rgb(223, 244, 207);
+    width: 20rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.listname{
+    padding-top: 1rem;
+    font-weight: 600;
+    font-size: larger;
+    color: rgb(11, 216, 11);
+}
+
+.list_items{
+    padding-top: 2rem;
+  
+    flex-grow: 1;
+    padding-bottom: 2rem;
+}
+
+li {
+    display: flex;
+    flex: 1 1 auto;
+    min-width: 20rem; 
+  
+}
+
+.items{
+    display: flex;
+}
+
+.item{
+    background-color: rgba(249, 255, 255, 0);
+    width: 100%;
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.listname{
+    background-color: rgb(20, 44, 44);
+    width: 100%;
+    padding-top: 2rem;
+    height: 3rem;
+}
+
+.item p{
+    font-weight: 600;
+}
+.item_name{
+    font-weight: 700;
+}
+
+.buttons{
+    padding-top: 2rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    gap: 2rem;
+    background-color: rgb(20, 44, 44);
+    margin: auto;
+}
+
+.deleteList{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top:30%;
+    left: 30%;
+    height: auto;
+    box-shadow: 1px 2px 10px 5px rgba(0, 0, 0, 0.371);
+    width: 50%;
+    animation: delete 0.1s alternate;
+ 
+}
+
+.buttonsd{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 2rem;
+}
+
+.deleteList .buttons{
+    background-color: rgb(255, 255, 255);
+}
+
+@keyframes delete {
+    0%{
+        transform: scale(0);
+    }
+}
+
+.deleteList p{
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+
+.deleteicon{
+    width: 100%;
+    float: right;
+    display: flex;
+    justify-content: end;
+  
+    
+}
+
+.modal{
+   position: fixed;
+    background-color: rgb(255, 253, 253);
+    top:2%;
+    left: 4%;
+    animation:popmodal 0.3s  forwards;
+    overflow: auto;
+    z-index: 9999;
+    width: 90%;
+    height: 100%;
+}
+
+.productImage{
+    width: 10%;
+    background-color: aqua;
+}
+
+.popicon{
+position: fixed;
+width: 100%;
+background-color: rgb(0, 0, 0); 
+display: flex;
+justify-content: flex-end;
+
+}
+
+
+@keyframes popmodal {
+    0%{
+        transform: scale(0);
+    }
+
+    100%{
+        opacity: 1;
+     
+    }
+    
+}
+
+.icon{
+    color: aliceblue;
+    font-size: 1.5rem;
+
+}
+
+.popicon button{
+    background-color: rgb(6, 27, 16);
+}
+
+.poplistcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    height: 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 99%;
+   
+   
+}
+
+.values{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;     
+}
+
+
+ input{
+    width: 90%;
+}
+
+.popitems{
+    width: 100%;
+    display: flex;
+    gap: 10px;              
+    align-items: center;                 
+    margin-bottom: 10px; 
+}
+
+@media only screen and (max-width: 1024px){
+    .container{
+        margin: 0;
+    }
+}

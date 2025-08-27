@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "a1b9",
+      "name": "Wise Lucky Mdhlovu",
+      "email": "unlimitednigami@gmail.com",
+      "phone": "0713476411",
+      "password": "aaaa"
+    },
+    {
+      "id": "7c29",
+      "name": "Wise Lucky Mdhlovu",
+      "email": "unlimitednigami@gmail.com",
+      "phone": "0833134192",
+      "password": "qwuiqwqhwqwqkh"
+    },
+    {
+      "id": "8f67",
+      "name": "",
+      "email": "unlimitednigami@gmail.com",
+      "phone": "",
+      "password": "qwuiqwqhwqwqkh"
+    },
+    {
+      "id": "95e8",
+      "name": "Phoenix",
+      "email": "PHOENIX",
+      "phone": "0713476411",
+      "password": "aaaa"
+    },
+    {
+      "id": "3074",
+      "name": "The Sage",
+      "email": "unlimitednigami@gmail.com",
+      "phone": "08331341292",
+      "password": "qwuiqwqhwqwqkh"
+    },
+    {
+      "id": "d806",
+      "name": "WL MDLOVU",
+      "email": "phoenix@gmail.com",
+      "phone": "0713476411",
+      "password": "1111"
+    }
+  ],
+  "ShoppingLists": [
+    {
+      "id": "1",
+      "userId": "7c29",
+      "name": "Weekly Groceries",
+      "products": [
+        {
+          "id": 2,
+          "name": "Bread",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "Eggs",
+          "quantity": 6
+        }
+      ]
+    }
+  ]
+}

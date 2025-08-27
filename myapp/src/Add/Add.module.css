@@ -1,0 +1,79 @@
+.container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 50px;
+    background: #f8f9fa;
+    background-color: rgb(20, 44, 44);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    overflow-y: auto;
+    padding-bottom: 10rem;
+}
+
+.top {
+    width: 100%;
+    background-color: rgb(20, 44, 44); 
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+    color: rgb(255, 255, 255); 
+}
+
+.top p {
+    margin-right: 10rem;
+    font-size: 2rem;
+    color: rgb(254, 255, 253); 
+}
+
+.values{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #fffdfd;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .input,
+  .fileInput {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  .input:focus,
+  .fileInput:focus {
+    border-color: #007bff;
+  }
+  
+  .button {
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .button:hover {
+    background: #0056b3;
+  }
+  

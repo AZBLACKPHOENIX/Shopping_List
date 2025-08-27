@@ -1,0 +1,182 @@
+.Add {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    width: 100%;
+    background-color: rgb(20, 44, 44); 
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+}
+
+.top p {
+    margin-right: 10rem;
+    font-size: 2rem;
+    color: rgb(223, 244, 207); 
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 1.5rem;
+    width: auto;
+    max-width: 20rem;
+    background-color: rgb(20, 44, 44);
+    margin-top: 2rem;
+}
+
+.container h2 {
+color: white;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.profileInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 10px 0;
+}
+
+.profileInfo label {
+    display: flex;
+    flex-direction: column; 
+    font-weight: 600;
+    font-size: 0.95em;
+    color: #f9f9f9;
+}
+
+.profileInfo input {
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.editableInput {
+    border: 1px solid rgb(11, 216, 11) !important; 
+    background-color: #f7fff7;
+}
+.editableInput:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(11, 216, 11, 0.3);
+}
+
+.disabledInput {
+    background-color: #f0f0f0;
+    color: #555;
+    border: 1px solid #ddd; 
+    cursor: default;
+}
+
+.profileActions {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.profileActions button {
+    flex-grow: 1;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.profileActions button:first-child { 
+    background-color: rgb(15, 30, 30);
+}
+.profileActions button:first-child:hover {
+    background-color: rgb(9, 180, 9);
+}
+.profileActions button:last-child { 
+
+    background-color: rgb(20, 44, 44);
+}
+.profileActions button:last-child:hover {
+    background-color: rgb(15, 30, 30);
+}
+
+.modal {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 30%; 
+    left: 30%;
+    height: auto;
+    box-shadow: 1px 2px 10px 5px rgba(0, 0, 0, 0.371);
+    width: 50%;
+    z-index: 9999;
+    padding: 20px;
+    border-radius: 8px;
+    animation: delete 0.3s alternate;
+}
+
+.popicon {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.popicon button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #333;
+    cursor: pointer;
+}
+
+.modal h3 {
+    text-align: center;
+    color: rgb(8, 37, 17);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.values {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.values input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.values button {
+    width: 90%;
+    padding: 12px;
+    background-color: rgb(11, 216, 11);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+.values button:hover {
+    background-color: rgb(9, 180, 9);
+}
+
+@keyframes delete {
+    0%{
+        transform: scale(0);
+    }
+}

@@ -1,0 +1,74 @@
+.Auth{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5%;
+    align-items: center;
+    height: 70vh;
+}
+
+.Auth h1{
+    color: #033512;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+input{
+    background-color: #034e20;
+    width: 150%;
+    padding: 12px;
+    text-align: center;
+    border: none;
+    font-size: 1rem;
+    color: #2bc752;
+}
+
+input::placeholder{
+border: none;
+color: #238d3d;
+background-color: #034e20;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #1e5c1e inset !important;
+    -webkit-text-fill-color:  #2bc752 !important;
+    font-weight: normal !important;
+    background-color: #033512;
+    transition: background-color 5000s ease-in-out 0s;
+  }
+  
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: green;
+}
+
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+   
+}
+
+.password{
+  accent-color: rgb(221, 221, 221);
+}
+
+.icon{
+    display:block;
+    position: absolute;
+    background: transparent;
+    left:-25%;
+    top: 30%;
+    color: #31b953;
+}
